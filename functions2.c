@@ -6,9 +6,9 @@
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get the width.
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size the specifier
  * Return: Number of chars printed.
  */
 int print_pointer(va_list types, char buffer[],
